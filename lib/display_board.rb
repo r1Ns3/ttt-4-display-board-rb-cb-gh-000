@@ -5,9 +5,6 @@ board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
 def display_board(board)
 
-    #set the board values
-
-
     #print the ttt board with the variables assigned to their respective cells
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
