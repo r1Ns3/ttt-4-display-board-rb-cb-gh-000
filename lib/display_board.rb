@@ -1,10 +1,12 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
+board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+
 def display_board(board)
 
     #set the board values
-    board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+
 
     #print the ttt board with the variables assigned to their respective cells
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
